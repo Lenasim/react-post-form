@@ -44,13 +44,13 @@ class FormMovie extends React.Component {
     render() {
         return (
             <div className="FormEmployee">
-                <h1>New Employee</h1>
+                <h1>My favorite movie</h1>
 
                 <form onSubmit={this.submitForm}>
                     <fieldset>
                         <legend>Information</legend>
                         <div className="form-data">
-                            <label htmlFor="title">Movie Title</label>
+                            <label htmlFor="title">Title</label>
                             <input
                                 type="text"
                                 id="title"
@@ -61,7 +61,7 @@ class FormMovie extends React.Component {
                         </div>
 
                         <div className="form-data">
-                            <label htmlFor="poster">Movie poster</label>
+                            <label htmlFor="poster">Poster</label>
                             <input
                                 type="text"
                                 id="poster"
